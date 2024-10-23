@@ -51,16 +51,16 @@ export default [
       },
       {
         image: imgFeatures,
-        title: "Features",
-        subtitle: "14 Examples",
-        route: "page-features",
+        title: "FaceWith Website",
+        subtitle: "FaceWith is an online interview platform designed for the IT industry, featuring tools like an online whiteboard and integrated IDE to help interviewers evaluate candidates' coding skills. It also includes functionality for scheduling interviews via meeting codes.",
+        route: "FaceWith",
         pro: false
       },
       {
         image: imgFeatures,
-        title: "Features",
-        subtitle: "14 Examples",
-        route: "page-features",
+        title: "BDIC Study Forum",
+        subtitle: "BDIC Study Forum is a forum website developed using Flask, Vue, and Python, offering features such as personal profiles, forum discussions, a draggable schedule module, and cookie management. The platform is designed with rich functionality and a sleek user interface.",
+        route: "BDIC-Study-Forum",
         pro: false
       }
     ]
@@ -80,15 +80,14 @@ export default [
         image: `${imagesPrefix}/nav-tabs.jpg`,
         title: "Distributed-System-p2p",
         subtitle: "A simple animation project developed in Java, utilizing basic geometric shapes composed of triangles. The animation features interactive elements controlled by keyboard input, allowing users to manipulate objects within the animation in real-time.",
-        details: "This project demonstrates the use of Java's graphics capabilities to create an interactive animation system. Basic shapes, primarily constructed from triangles, form the core of the visual elements. The program listens for keyboard inputs to control various objects within the animation, enabling movement, transformations, or other dynamic effects. This interactive design showcases how user input can influence and manipulate the visual elements in real time, offering a hands-on experience of object control in a graphical environment.",
         route: "graphics-project",
         pro: false
       },
       {
-        image: imgPagination,
-        title: "FaceWith Website",
-        subtitle: "3 Examples",
-        route: "Tabibito-tourism-website",
+        image: imgFeatures,
+        title: "Andorid application SimpleNote",
+        subtitle: "SimpleNote is an Android note-taking app built with Java in Android Studio. It features login/registration, note creation with customizable priorities, photo attachments, and a calendar to view notes by date. The app also includes a to-do list",
+        route: "Andorid-application-SimpleNote",
         pro: false
       },
       {

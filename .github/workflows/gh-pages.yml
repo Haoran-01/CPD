@@ -1,0 +1,30 @@
+name: Deploy Vite Project to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # 或 main 分支，取决于你的主分支名称
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Install Node.js and dependencies
+      uses: actions/setup-node@v2
+      with:
+        node-version: '16'
+
+    - run: npm install
+
+    - name: Build project
+      run: npm run build
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./dist  # 发布目录为dist
