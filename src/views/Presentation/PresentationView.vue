@@ -81,12 +81,13 @@ onUnmounted(() => {
     <PresentationCounter />
     <PresentationInformation />
     <PresentationExample :data="data" />
-    <PresentationPages />
-    <BuiltByDevelopers />
 
-    
+    <!-- <PresentationPages /> -->
 
-    <div class="container">
+    <!-- <BuiltByDevelopers /> -->
+
+
+    <!-- <div class="container">
       <div class="row">
         <div class="col-lg-4">
           <FilledInfoCard
@@ -132,8 +133,8 @@ onUnmounted(() => {
           />
         </div>
       </div>
-    </div>
-    <PresentationTestimonials />
+    </div> -->
+
 
     <div class="container">
       <div class="row">
@@ -271,38 +272,6 @@ onUnmounted(() => {
     </div> -->
 
 
-
-
-    <div class="py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-5 ms-auto">
-            <h4 class="mb-1">Thank you for your support!</h4>
-            <p class="lead mb-0">We deliver the best web products</p>
-          </div>
-          <div class="col-lg-5 me-lg-auto my-lg-auto text-lg-end mt-5">
-            <MaterialSocialButton
-              route="https://twitter.com/intent/tweet?text=Check%20Material%20Design%20System%20made%20by%20%40CreativeTim%20%23webdesign%20%23designsystem%20%23bootstrap5&url=https%3A%2F%2Fwww.creative-tim.com%2Fproduct%2Fmaterial-design-system-pro"
-              component="twitter"
-              color="twitter"
-              label="Tweet"
-            />
-            <MaterialSocialButton
-              route="https://www.facebook.com/sharer/sharer.php?u=https://www.creative-tim.com/product/material-design-system-pro"
-              component="facebook-square"
-              color="facebook"
-              label="Share"
-            />
-            <MaterialSocialButton
-              route=""
-              component="pinterest"
-              color="pinterest"
-              label="Pin it"
-            />
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
   <DefaultFooter />
 </template>

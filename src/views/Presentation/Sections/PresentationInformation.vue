@@ -24,7 +24,7 @@ import DefaultInfoCard from "../../../examples/cards/infoCards/DefaultInfoCard.v
                 code because all elements are implemented."
               :action="[
                 {
-                  route: './/sections/page-sections/hero-sections.html',
+                  route: '/pages/landing-pages/about-me',
                   label: 'Start with Headers',
                 },
               ]"

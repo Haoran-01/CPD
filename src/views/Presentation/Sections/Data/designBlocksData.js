@@ -44,9 +44,9 @@ export default [
       },
       {
         image: imgFeatures,
-        title: "Tabbitto website",
-        subtitle: "一个面向全球消费者的制定旅游计划的网站",
-        route: "page-features",
+        title: "Tabbitto tourism website",
+        subtitle: "A travel management website with modules for user accounts, project management, bookings, a portal, and chat. Built with Vue 3, Flask, NGINX, NLTK, and Google APIs.",
+        route: "Tabibito-tourism-website",
         pro: false
       },
       {
@@ -71,23 +71,24 @@ export default [
     items: [
       {
         image: `${imagesPrefix}/navbars.jpg`,
-        title: "Object Oriented Programming: Asteroids",
-        subtitle: "4 Examples",
-        route: "navigation-navbars",
+        title: "Distributed System p2p",
+        subtitle: "A peer-to-peer (P2P) chat application with separate server and client components, using TCP connections to enable communication between users.",
+        route: "Distributed-System-p2p",
         pro: false
       },
       {
         image: `${imagesPrefix}/nav-tabs.jpg`,
-        title: "Nav Tabs",
-        subtitle: "2 Nav Tabs",
-        route: "navigation-navtabs",
+        title: "Distributed-System-p2p",
+        subtitle: "A simple animation project developed in Java, utilizing basic geometric shapes composed of triangles. The animation features interactive elements controlled by keyboard input, allowing users to manipulate objects within the animation in real-time.",
+        details: "This project demonstrates the use of Java's graphics capabilities to create an interactive animation system. Basic shapes, primarily constructed from triangles, form the core of the visual elements. The program listens for keyboard inputs to control various objects within the animation, enabling movement, transformations, or other dynamic effects. This interactive design showcases how user input can influence and manipulate the visual elements in real time, offering a hands-on experience of object control in a graphical environment.",
+        route: "graphics-project",
         pro: false
       },
       {
         image: imgPagination,
         title: "FaceWith Website",
         subtitle: "3 Examples",
-        route: "navigation-pagination",
+        route: "Tabibito-tourism-website",
         pro: false
       },
       {

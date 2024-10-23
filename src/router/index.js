@@ -154,6 +154,16 @@ const router = createRouter({
       component: ElTypography,
     },
   ],
+
+  scrollBehavior(to, from, savedPosition) {
+    // 如果存在保存的位置（例如，返回到上一页时），则返回保存的位置
+    if (savedPosition) {
+      return savedPosition;
+    } else {
+      // 否则，滚动到页面顶部
+      return { top: 0 };
+    }
+  }
 });
 
 export default router;
