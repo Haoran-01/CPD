@@ -116,8 +116,8 @@ watch(
         " to="/" rel="tooltip" title="Designed and Coded by Creative Tim" data-placement="bottom">
         Material Design
       </RouterLink>
-      <a href="https://www.creative-tim.com/product/vue-material-kit-pro"
-        class="btn btn-sm bg-gradient-success mb-0 ms-auto d-lg-none d-block">Buy Now</a>
+      <a href="/CPD/CV_Haoran_Yan.pdf"
+        class="btn btn-sm bg-gradient-success mb-0 ms-auto d-lg-none d-block">OPEN CV</a>
       <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse"
         data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon mt-2">
