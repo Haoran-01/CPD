@@ -7,6 +7,14 @@ import emma from "@/assets/img/team-5.jpg";
 import william from "@/assets/img/bruce-mars.jpg";
 import ivana from "@/assets/img/ivana-squares.jpg";
 import marquez from "@/assets/img/ivana-square.jpg";
+
+// import website from "@/assets/img/pictures/";
+// import android from "@/assets/img/pictures/";
+// import machineLearning from "@/assets/img/pictures/";
+// import algorithm from "@/assets/img/pictures/";
+
+// import
+
 </script>
 
 <template>
@@ -30,7 +38,7 @@ import marquez from "@/assets/img/ivana-square.jpg";
             :image="emma"
             :profile="{ name: 'Website development'}"
             :position="{ label: 'Back-end Development Engineer', color: 'success' }"
-            description="solid experience in website back-end development, proficient in using Python for website development, able to efficiently build and maintain back-end services. Good at using MySQL for database operation, familiar with JSON data format for front-end and back-end data transfer and communication to ensure system reliability and scalability. 
+            description="Solid experience in website back-end development, proficient in using Python for website development, able to efficiently build and maintain back-end services. Good at using MySQL for database operation, familiar with JSON data format for front-end and back-end data transfer and communication to ensure system reliability and scalability. 
             In addition, master database design and optimization techniques, able to design efficient database structure to improve system performance."
           />
         </div>
@@ -40,7 +48,7 @@ import marquez from "@/assets/img/ivana-square.jpg";
             :image="william"
             :profile="{ name: 'Android Application Development'}"
             :position="{ label: 'Android engineer', color: 'success' }"
-            description="able to develop Android applications using Android Studio, with comprehensive ability from interface layout design to functional logic implementation. 
+            description="Able to develop Android applications using Android Studio, with comprehensive ability from interface layout design to functional logic implementation. 
             Familiar with Android application life cycle management and user interaction optimization, having developed Android platform based applications alone."
           />
         </div>
@@ -51,8 +59,8 @@ import marquez from "@/assets/img/ivana-square.jpg";
             class="mt-4 z-index-2"
             :image="ivana"
             :profile="{ name: 'Machine Learning Algorithm Optimization'}"
-            :position="{ label: 'Athlete', color: 'success' }"
-            description="with experience in machine learning projects, able to improve AI answering ability by adjusting Prompt,
+            :position="{ label: 'Machine learning engineers', color: 'success' }"
+            description="With experience in machine learning projects, able to improve AI answering ability by adjusting Prompt,
             modifying related logic and optimizing algorithm parameters. In-depth understanding of machine learning model performance tuning,
             able to improve model performance according to specific application scenarios to ensure the accuracy and efficiency of the AI system."
           />
@@ -62,7 +70,7 @@ import marquez from "@/assets/img/ivana-square.jpg";
             class="mt-lg-4 mt-5 z-index-2"
             :image="marquez"
             :profile="{ name: 'Algorithm design and implementation'}"
-            :position="{ label: 'algorithm engineer', color: 'success' }"
+            :position="{ label: 'Algorithm engineer', color: 'success' }"
             description="In-depth understanding of commonly used algorithms, including K-Nearest Neighbour (KNN),
             Random Forest and other classic machine learning algorithms. Proficient in writing corresponding code
             implementations and optimising these algorithms in multiple projects to improve model accuracy and computational efficiency.

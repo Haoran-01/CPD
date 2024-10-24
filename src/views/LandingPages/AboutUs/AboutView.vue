@@ -17,6 +17,8 @@ import AboutTeam from "./Sections/AboutTeam.vue";
 import Featuring from "./Sections/AboutFeaturing.vue";
 import Newsletter from "./Sections/AboutNewsletter.vue";
 
+import photo from "@/assets/img/pictures/photo.png"
+
 const body = document.getElementsByTagName("body")[0];
 //hooks
 onMounted(() => {
@@ -44,8 +46,7 @@ onUnmounted(() => {
 <template>
   <DefaultNavbar
     :action="{
-      route: 'javascript:;',
-      label: 'Buy Now',
+      label: 'open cv',
       color: 'btn-white',
     }"
     transparent
@@ -70,9 +71,9 @@ onUnmounted(() => {
             <p class="lead mb-4 text-white opacity-8">
               BSc software engineering from Beijing University of Technology <br /> MSc robotics from University of Manchester
             </p>
-            <h6 class="text-white mb-2 mt-5">Find me on</h6>
+            <!-- <h6 class="text-white mb-2 mt-5">Find me on</h6> -->
             <!-- 联系方式链接 -->
-            <div class="d-flex justify-content-center">
+            <!-- <div class="d-flex justify-content-center">
               <a href="javascript:;"
                 ><i class="fab fa-facebook text-lg text-white me-4"></i
               ></a>
@@ -85,7 +86,7 @@ onUnmounted(() => {
               <a href="javascript:;"
                 ><i class="fab fa-google-plus text-lg text-white"></i
               ></a>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>

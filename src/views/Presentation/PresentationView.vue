@@ -36,7 +36,8 @@ import pythonLogo from "@/assets/img/logos/python.svg"
 import vscodeLogo from "@/assets/img/logos/vscode.svg"
 import vueLogo from "@/assets/img/logos/Vue.svg"
 import webstormLogo from "@/assets/img/logos/webstorm.svg"
-
+import Avatar from "@/assets/img/pictures/Avatar.png"
+import photo from "@/assets/img/pictures/photo.png"
 
 
 import wavesWhite from "@/assets/img/waves-white.svg";
@@ -63,7 +64,13 @@ onUnmounted(() => {
   <div class="container position-sticky z-index-sticky top-0">
     <div class="row">
       <div class="col-12">
-        <NavbarDefault :sticky="true" />
+        <NavbarDefault
+        :sticky="true"
+        :action="{
+          label: 'OPEN CV',
+          color: 'btn-white',
+    }"
+    />
       </div>
     </div>
   </div>
@@ -76,7 +83,7 @@ onUnmounted(() => {
       <div class="container">
         <div class="row">
           <div class="col-lg-7 text-center mx-auto position-relative">
-            <MaterialAvatar image="/src/assets/img/team-1.jpg" alt="Avatar" size="xxl" borderRadius="xl"/> <br>
+            <MaterialAvatar :image=Avatar alt="Avatar" size="xxl" borderRadius="xl"/> <br>
             <h1
               class="text-white pt-3 mt-n5 me-2"
               :style="{ display: 'inline-block ' }"
@@ -95,7 +102,7 @@ onUnmounted(() => {
   </Header>
 
   <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6">
-    <PresentationCounter />
+    <!-- <PresentationCounter /> -->
     <PresentationInformation />
     <PresentationExample :data="data" />
 

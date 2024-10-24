@@ -1,4 +1,6 @@
 <script setup>
+
+import { RouterLink } from 'vue-router';
 defineProps({
   image: {
     type: String,
@@ -38,9 +40,9 @@ defineProps({
       <p class="mb-0">
         {{ description }}
       </p>
-      <button type="button" class="btn btn-sm mb-0 mt-3" :class="action.color">
-        {{ action.label }}
-      </button>
+        <!-- <button type="button" class="btn btn-sm mb-0 mt-3" :class="action.color">
+        contact me
+        </button> -->
     </div>
   </div>
 </template>

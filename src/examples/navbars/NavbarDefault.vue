@@ -186,7 +186,7 @@ watch(
 
           </li>
 
-          <li class="nav-item dropdown dropdown-hover mx-2">
+          <!-- <li class="nav-item dropdown dropdown-hover mx-2">
             <a
               role="button"
               class="nav-link ps-2 d-flex cursor-pointer align-items-center"
@@ -668,8 +668,9 @@ watch(
                 </div>
               </div>
             </div>
-          </li>
-          <li class="nav-item dropdown dropdown-hover mx-2">
+          </li> -->
+
+          <!-- <li class="nav-item dropdown dropdown-hover mx-2">
             <a
               role="button"
               class="nav-link ps-2 d-flex cursor-pointer align-items-center"
@@ -822,11 +823,11 @@ watch(
                 </div>
               </div>
             </div>
-          </li>
+          </li> -->
 
 
           <li class="nav-item dropdown dropdown-hover mx-2">
-            <a href="https://www.github.com/creativetimofficial/vue-material-kit"
+            <a href="https://github.com/Haoran-01"
               class="nav-link d-flex cursor-pointer align-items-center">
               <svg width="20px" height="20px" class="material-icons me-2 opacity-6" viewBox="0 0 24 24"
                 aria-hidden="true" data-testid="GitHubIcon" :fill="props.transparent && '#fff'">
@@ -837,11 +838,25 @@ watch(
               Github
             </a>
           </li>
+
+          <li class="nav-item dropdown dropdown-hover mx-2">
+            <a href="https://www.linkedin.com/in/haoran-yan-601903283"
+              class="nav-link d-flex cursor-pointer align-items-center">
+              <svg class="material-icons me-2 opacity-6" viewBox="0 0 1024 1024" aria-hidden="true" data-testid="GitHubIcon" :fill="props.transparent && '#fff'" width="20px" height="20px">
+                <path d="M895.657143 54.857143H128.342857c-40.571429 0-73.485714 32.914286-73.485714 73.485714v767.314286c0 40.571429 32.914286 73.485714 73.485714 73.485714h767.314286c40.571429 0 73.485714-32.914286 73.485714-73.485714V128.342857c0-40.571429-32.914286-73.485714-73.485714-73.485714z m0 841.142857c-511.771429-0.114286-767.657143-0.228571-767.657143-0.342857 0.114286-511.771429 0.228571-767.657143 0.342857-767.657143 511.771429 0.114286 767.657143 0.228571 767.657143 0.342857-0.114286 511.771429-0.228571 767.657143-0.342857 767.657143zM190.4 397.6h135.657143v436.342857H190.4z m67.885714-59.657143c43.314286 0 78.628571-35.2 78.628572-78.628571a78.628571 78.628571 0 1 0-157.257143 0c-0.114286 43.428571 35.085714 78.628571 78.628571 78.628571z m288.342857 280.114286c0-56.914286 10.857143-112 81.371429-112 69.485714 0 70.514286 65.028571 70.514286 115.657143v212.228571h135.542857V594.628571c0-117.485714-25.371429-207.885714-162.628572-207.885714-65.942857 0-110.171429 36.228571-128.342857 70.514286h-1.828571v-59.657143H411.085714v436.342857h135.542857V618.057143z"></path>
+              </svg>
+              Linkedin
+            </a>
+          </li>
+
         </ul>
         <ul class="navbar-nav d-lg-block d-none">
           <li class="nav-item">
-            <a :href="action.route" class="btn btn-sm mb-0" :class="action.color"
-              onclick="smoothToPricing('pricing-soft-ui')">{{ action.label }}</a>
+            <a href="/CPD/CV_Haoran_Yan.pdf" class="btn btn-sm mb-0"
+            :class="action.color"
+            onclick="smoothToPricing('pricing-soft-ui')"
+            >{{ action.label }}
+          </a>
           </li>
         </ul>
       </div>
