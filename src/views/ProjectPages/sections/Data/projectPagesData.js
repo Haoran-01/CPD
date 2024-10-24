@@ -16,7 +16,6 @@ const imageBaseUrl = "https://your-project-image-url.com/images"; // 替换为�
 const imagesPrefix = "src/assets/img/pictures"
 
 import CvPicture from "@/assets/img/pictures/CV.png"
-// import SpaceInvadersPicture from "@/assets/img/pictures/SpaceInvaders.jpg"
 import TabibitoPicture from "@/assets/img/pictures/Tabibito.jpg"
 import FaceWithPicture from "@/assets/img/pictures/FaceWith.png"
 import BDICForum from "@/assets/img/pictures/BDIC-Forum.png"
