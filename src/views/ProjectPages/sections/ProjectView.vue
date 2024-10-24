@@ -27,7 +27,7 @@ onMounted(() => {
 });
 
 import BaseLayout from "../../../layouts/sections/components/BaseLayout.vue";
-import View from "../../../layouts/sections/components/View.vue";
+import View from "../Components/Project-code-View.vue";
 import { header1Code } from "../../../layouts/sections/page-sections/page-headers/components/codes";
 import DefaultInfoCard from "../../../examples/cards/infoCards/DefaultInfoCard.vue"
 import PageHeader from "../Components/ProjectPageHeader.vue"
@@ -44,7 +44,8 @@ import PageHeader from "../Components/ProjectPageHeader.vue"
         <PageHeader :image="project.image" :title="project.title" :description="project.description"
             :videoUrl="project.videoUrl" :githubLink="project.githubLink" />
 
-        <View title="Project Details" :code="header1Code" id="header-1">
+        <!-- <View title="Project Details" :code="header1Code" id="header-1"> -->
+        <View title="Project Details">
             <div v-if="project">
                 <!-- <img :src="project.image" :alt="project.title" /> -->
                 <!-- <a v-if="project.videoUrl" :href="project.videoUrl" target="_blank">Watch Video</a>

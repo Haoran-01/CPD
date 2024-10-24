@@ -58,9 +58,18 @@ const props = defineProps({
                 color="white"
                 class="mt-4"
               >
-                Find it on Github
+                CODE
               </MaterialButton></a>
-            </div>
+              <a v-if="videoUrl" :href="videoUrl" target="_blank">
+                <MaterialButton
+                v-if="videoUrl"
+                color="none"
+                class="text-white shadow-none mt-4"
+                >VIDEO
+                </MaterialButton>
+            </a>
+
+          </div>
           </div>
         </div>
       </div>

@@ -54,11 +54,12 @@ export default {
       <div class="row">
         <div class="row justify-content-center text-center my-sm-5">
           <div class="col-lg-6">
-            <MaterialBadge color="success" class="mb-3">项目列表</MaterialBadge>
+            <MaterialBadge color="success" class="mb-3">Project Section</MaterialBadge>
 
             <h2 class="text-dark mb-0">Project</h2>
             <p class="lead">
-              这里是我参与的所有项目
+              Here are all the projects I've worked on. <br>
+              V signifies that a demo video is available for the project
             </p>
           </div>
         </div>

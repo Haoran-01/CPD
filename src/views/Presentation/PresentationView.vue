@@ -22,6 +22,23 @@ import PresentationInformation from "./Sections/PresentationInformation.vue";
 
 //images
 import vueMkHeader from "@/assets/img/vue-mk-header.jpg";
+import pycharmLogo from "@/assets/img/logos/Pycharm.svg"
+import javaLogo from "@/assets/img/logos/java.svg"
+import DataGripLogo from "@/assets/img/logos/DataGrip.svg"
+import htmlLogo from "@/assets/img/logos/html.svg"
+import AndroidLogo from "@/assets/img/logos/Android_Studio_Trademark.svg"
+import JSLogo from "@/assets/img/logos/java-script.svg"
+import jupyterLogo from "@/assets/img/logos/jupyter_group.svg"
+
+import markdownLogo from "@/assets/img/logos/markdown.svg"
+import mysqlLogo from "@/assets/img/logos/mysql.svg"
+import pythonLogo from "@/assets/img/logos/python.svg"
+import vscodeLogo from "@/assets/img/logos/vscode.svg"
+import vueLogo from "@/assets/img/logos/Vue.svg"
+import webstormLogo from "@/assets/img/logos/webstorm.svg"
+
+
+
 import wavesWhite from "@/assets/img/waves-white.svg";
 import logoBootstrap from "@/assets/img/logos/bootstrap5.jpg";
 import logoTailwind from "@/assets/img/logos/icon-tailwind.jpg";
@@ -139,86 +156,180 @@ onUnmounted(() => {
     <div class="container">
       <div class="row">
         <div class="d-flex flex-column w-100 text-center p-5 mb-8">
-          <h3>Available on these technologies</h3>
+          <h3>Programming languages I have mastered</h3>
           <div class="d-flex justify-content-center mt-3 flex-wrap">
             <a
-              href="https://www.creative-tim.com/product/material-kit"
+              href="https://www.python.org/"
               data-bs-toggle="tooltip"
               data-bs-placement="bottom"
-              title="Bootstrap 5 - Most popular front-end component library"
+              title="Python is a widely-used, high-level programming language suited for various applications, especially data analysis and machine learning."
             >
               <img
-                :src="logoBootstrap"
+                :src="pythonLogo"
                 alt="title"
                 loading="lazy"
                 :style="{ height: '90px' }"
               />
             </a>
             <a
-              class="opacity-5 ms-3"
-              href="#"
+              class="mx-3"
+              href="https://www.java.com/zh-CN/"
               data-bs-toggle="tooltip"
               data-bs-placement="bottom"
-              title="Coming Soon"
+              title="Java is a general-purpose, object-oriented programming language commonly used for enterprise-level development, mobile apps, and server-side applications."
             >
               <img
-                :src="logoTailwind"
+                :src="javaLogo"
                 alt="title"
                 loading="lazy"
                 :style="{ height: '90px' }"
               />
             </a>
             <a
-              href="https://www.creative-tim.com/product/vue-material-kit-pro"
+              href="https://nodejs.org"
               class="mx-3"
               data-bs-toggle="tooltip"
               data-bs-placement="bottom"
-              title="Vue.js - Is a Progressive JavaScript Framework"
+              title="Node.js is a JavaScript runtime built on Chrome's V8 engine, designed for building scalable and efficient network applications."
             >
               <img
-                :src="logoVue"
+                :src="JSLogo"
                 alt="title"
                 loading="lazy"
                 :style="{ height: '90px' }"
               />
             </a>
             <a
-              class="opacity-5"
-              href="#"
+              class="mx-3"
+              href="https://www.mysql.com"
               data-bs-toggle="tooltip"
               data-bs-placement="bottom"
-              title="Coming Soon"
+              title=" MySQL is a widely-used open-source relational database management system, ideal for handling large-scale websites and applications."
             >
               <img
-                :src="logoAngular"
+                :src="mysqlLogo"
                 alt="title"
                 loading="lazy"
                 :style="{ height: '90px' }"
               />
             </a>
             <a
-              href="https://www.creative-tim.com/product/material-kit-react-pro"
+              href="https://daringfireball.net/projects/markdown/"
               class="mx-3"
               data-bs-toggle="tooltip"
               data-bs-placement="bottom"
-              title="React – A JavaScript library for building user interfaces"
+              title="Markdown is a lightweight markup language used to format plain text and write structured documents."
             >
               <img
-                :src="logoReact"
+                :src="markdownLogo"
+                alt="title"
+                loading="lazy"
+                :style="{ height: '90px' }"
+              />
+            </a>
+
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+              class="mx-3"
+              data-bs-toggle="tooltip"
+              data-bs-placement="bottom"
+              title="HTML is the standard markup language for creating web pages, responsible for defining the structure and content of web documents."
+            >
+              <img
+                :src="htmlLogo"
+                alt="title"
+                loading="lazy"
+                :style="{ height: '90px' }"
+              />
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="d-flex flex-column w-100 text-center p-5 mb-8">
+          <h3>Programming tools at my disposal</h3>
+          <div class="d-flex justify-content-center mt-3 flex-wrap">
+            <a
+              href="https://www.jetbrains.com/pycharm/"
+              data-bs-toggle="tooltip"
+              data-bs-placement="bottom"
+              title="PyCharm is an integrated development environment (IDE) from JetBrains designed to boost productivity in Python development."
+            >
+              <img
+                :src="pycharmLogo"
                 alt="title"
                 loading="lazy"
                 :style="{ height: '90px' }"
               />
             </a>
             <a
-              class="opacity-5"
-              href="#"
+              class="mx-3"
+              href="https://developer.android.com/studio"
               data-bs-toggle="tooltip"
               data-bs-placement="bottom"
-              title="Coming Soon"
+              title="Android Studio is the official integrated development environment (IDE) from Google for developing Android applications."
             >
               <img
-                :src="logoSketch"
+                :src="AndroidLogo"
+                alt="title"
+                loading="lazy"
+                :style="{ height: '90px' }"
+              />
+            </a>
+            <a
+              href="https://www.jetbrains.com/webstorm/"
+              class="mx-3"
+              data-bs-toggle="tooltip"
+              data-bs-placement="bottom"
+              title="WebStorm is a professional IDE from JetBrains specifically designed for JavaScript development, supporting both frontend and Node.js."
+            >
+              <img
+                :src="webstormLogo"
+                alt="title"
+                loading="lazy"
+                :style="{ height: '90px' }"
+              />
+            </a>
+            <a
+              class="mx-3"
+              href="https://www.jetbrains.com/datagrip/"
+              data-bs-toggle="tooltip"
+              data-bs-placement="bottom"
+              title="DataGrip is a database management tool from JetBrains, providing powerful SQL development capabilities and supporting multiple databases."
+            >
+              <img
+                :src="DataGripLogo"
+                alt="title"
+                loading="lazy"
+                :style="{ height: '90px' }"
+              />
+            </a>
+            <a
+              href="https://jupyter.org"
+              class="mx-3"
+              data-bs-toggle="tooltip"
+              data-bs-placement="bottom"
+              title="Jupyter Notebook is an open-source interactive computing environment that supports Python and other programming languages, widely used for data analysis and machine learning."
+            >
+              <img
+                :src="jupyterLogo"
+                alt="title"
+                loading="lazy"
+                :style="{ height: '90px' }"
+              />
+            </a>
+            <a
+              href="https://code.visualstudio.com"
+              data-bs-toggle="tooltip"
+              data-bs-placement="bottom"
+              title="VSCode is a lightweight, powerful open-source code editor that supports a variety of programming languages and extensions."
+            >
+              <img
+                :src="vscodeLogo"
                 alt="title"
                 loading="lazy"
                 :style="{ height: '90px' }"
