@@ -29,7 +29,7 @@ onMounted(() => {
 import BaseLayout from "../../../layouts/sections/components/BaseLayout.vue";
 import View from "../Components/Project-code-View.vue";
 import { header1Code } from "../../../layouts/sections/page-sections/page-headers/components/codes";
-import DefaultInfoCard from "../../../examples/cards/infoCards/DefaultInfoCard.vue"
+import ProjectInfoCard from "../../../examples/cards/infoCards/ProjectInfoCard.vue"
 import PageHeader from "../Components/ProjectPageHeader.vue"
 
 
@@ -50,11 +50,13 @@ import PageHeader from "../Components/ProjectPageHeader.vue"
                 <!-- <img :src="project.image" :alt="project.title" /> -->
                 <!-- <a v-if="project.videoUrl" :href="project.videoUrl" target="_blank">Watch Video</a>
                 <a v-if="project.markdownLink" :href="project.markdownLink" target="_blank">Project Details</a> -->
-                <DefaultInfoCard
+                <ProjectInfoCard
                 color="success"
                 icon="public"
                 :title="project.role"
-                :description="project.details" />
+                :description="project.details"
+                :isGroupProject="!project.isPersonalProject"
+                :contribution="project.contribution"/>
             </div>
             <div v-else>
                 <p>Project not found.</p>

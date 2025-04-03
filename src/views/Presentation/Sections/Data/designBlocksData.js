@@ -27,7 +27,8 @@ import SpaceInvadersPicture from "@/assets/img/pictures/Space-Invaders.png"
 import CGPicture from "@/assets/img/pictures/CG.png"
 import P2PPicture from "@/assets/img/pictures/p2p.png"
 import AndoridPicture from "@/assets/img/pictures/android.png"
-
+import FindpathPicture from "@/assets/img/pictures/PathFinding.png"
+import RoboticsProjectPicture from "@/assets/img/pictures/RoboticsProject.png"
 
 const imagesPrefix = "src/assets/img/pictures"
 export default [
@@ -64,13 +65,13 @@ export default [
         route: "BDIC-Study-Forum",
         pro: false
       },
-      // {
-      //   image: imgFeatures,
-      //   title: "",
-      //   subtitle: "",
-      //   route: "",
-      //   pro: false
-      // },
+      {
+        image: RoboticsProjectPicture,
+        title: "Autonomous Object Sorting Robot",
+        subtitle: "A four-wheeled autonomous robot designed to identify, grasp, and sort colored blocks into bins using perception, navigation, and manipulation systems.",
+        route: "Autonomous-Object-Sorting-Robot",
+        pro: false
+      },
       // {
       //   image: imgFeatures,
       //   title: "",
@@ -152,6 +153,13 @@ export default [
         title: "Space Invaders Game",
         subtitle: "SpaceInvaders is a Java-based OOP game where players control a spaceship to shoot down asteroids of random shapes and sizes. Power-ups enhance gameplay, giving players different abilities and boosts as they navigate through the game.",
         route: "Space-Invaders",
+        pro: false
+      },
+      {
+        image: FindpathPicture,
+        title: "A* Path Planning",
+        subtitle: "Implemented the A* algorithm using Python to allow a robot to plan paths while avoiding obstacles in a grid-based environment.",
+        route: "Path-Fingding",
         pro: false
       },
       // {

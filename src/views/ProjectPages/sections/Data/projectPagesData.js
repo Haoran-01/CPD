@@ -27,6 +27,8 @@ import SpaceInvadersPicture from "@/assets/img/pictures/Space-Invaders.png"
 import CGPicture from "@/assets/img/pictures/CG.png"
 import P2PPicture from "@/assets/img/pictures/p2p.png"
 import AndoridPicture from "@/assets/img/pictures/android.png"
+import FindpathPicture from "@/assets/img/pictures/PathFinding.png"
+import RoboticsProjectPicture from "@/assets/img/pictures/RoboticsProject.png"
 
 
 // 项目数据以字典形式存储
@@ -40,7 +42,7 @@ export default {
         videoUrl: "",
         markdownLink: "",
         githubLink: "https://github.com/Haoran-01/distributed-system-p2p",
-        isPersonalProject: true
+        isPersonalProject: true,
     },
     "graphics-project": {
         image: CGPicture,
@@ -62,7 +64,8 @@ export default {
         videoUrl: "https://youtu.be/HHpKojx7l9Y",
         markdownLink: "",
         githubLink: "https://github.com/Haoran-01/Tabibito-tourism-website",
-        isPersonalProject: false
+        isPersonalProject: false,
+        contribution:"In this project, I am mainly responsible for the back-end development work, including the design and maintenance of MySQL database, the writing of back-end business logic, and the integration and debugging of front-end and back-end interfaces. Through this practice, I not only improved my back-end development ability, but also gained a deep understanding of the project planning process in teamwork, and mastered the key skills of efficient front-end and back-end collaboration."
     },
     "Andorid-application-SimpleNote": {
         image: AndoridPicture,
@@ -84,7 +87,8 @@ export default {
         videoUrl: "",
         markdownLink: "",
         githubLink: "https://github.com/Haoran-01/FaceWith",
-        isPersonalProject: false
+        isPersonalProject: false,
+        contribution:"111"
     },
     "BDIC-Study-Forum": {
         image: BDICForum,
@@ -95,7 +99,8 @@ export default {
         videoUrl: "",
         markdownLink: "",
         githubLink: "https://github.com/Haoran-01/BDIC-Study-Forum",
-        isPersonalProject: false
+        isPersonalProject: false,
+        contribution:"In this project, I was responsible for debugging the interface of the online IDEA system, and participated in the design and maintenance of the MySQL database of the website. Through this practice, I mastered how to call and debug the existing interface efficiently, and improved the ability of database construction and management."
     },
     "Depth-Reconstruction": {
         image: CvPicture,
@@ -106,7 +111,8 @@ export default {
         videoUrl: "",
         markdownLink: "",
         githubLink: "https://github.com/Haoran-01/Depth-reconstruction",
-        isPersonalProject: false
+        isPersonalProject: false,
+        contribution:"In this project, I was mainly responsible for the optimization and parameterization of the algorithm, and completed the training and performance improvement of the model. Through this practice, I have mastered how to use TensorFlow to build, train and optimize deep learning models, which has significantly improved my ability in AI practical application."
     },
     "DES-Python": {
         image: DESPicture,
@@ -117,7 +123,7 @@ export default {
         videoUrl: "https://youtu.be/sIrrQCw-pwY",
         markdownLink: "",
         githubLink: "https://github.com/Haoran-01/DES-Python",
-        isPersonalProject: false
+        isPersonalProject: true
     },
     "Large-Document-Corpus-for-Programming": {
         image: LDCPPicture,
@@ -150,7 +156,7 @@ export default {
         videoUrl: "",
         markdownLink: "",
         githubLink: "https://github.com/Haoran-01/Data-Structure",
-        isPersonalProject: false
+        isPersonalProject: true
     },
     "Space-Invaders": {
         image: SpaceInvadersPicture,
@@ -161,8 +167,45 @@ export default {
         videoUrl: "",
         markdownLink: "",
         githubLink: "",
-        isPersonalProject: false
+        isPersonalProject: true
     },
+    "Path-Fingding": {
+        image: FindpathPicture,
+        title: "A* Path Planning",
+        role: "Developer",
+        description: "Implemented the A* algorithm using Python to allow a robot to plan paths while avoiding obstacles in a grid-based environment.",
+        details: "This coursework project focused on developing a path planning algorithm using A* for an autonomous mobile robot system. It involved modifying a provided GUI framework and implementing the core logic within a Python script named `pathPlanner.py`. The algorithm restricted movement to four directions (up/down/left/right) and used Euclidean distance as the heuristic. The function had to operate without any additional libraries, and strict constraints were placed on format, performance, and code structure. The final implementation returns a valid path as a list of coordinate tuples from a given start to end point, navigating around walls or blocked cells on a 2D grid.",
+        videoUrl: "",
+        markdownLink: "",
+        githubLink: "",
+        isPersonalProject: true
+    },
+    "Autonomous-Object-Sorting-Robot": {
+        image: RoboticsProjectPicture,
+        title: "Autonomous Object Sorting Robot",
+        role: "Developer",
+        description: "A four-wheeled autonomous robot designed to identify, grasp, and sort colored blocks into bins using perception, navigation, and manipulation systems.",
+        details: "This project presents a mobile robotic system built on the Leo Rover platform, capable of autonomously detecting and retrieving color-coded wooden blocks using a robotic arm and camera. The robot navigates using SLAM and path planning algorithms and performs real-time object recognition via a YOLOv8 deep learning model. The team implemented modules for sensor fusion, task control, execution, and environment mapping using ROS2. A key emphasis was placed on sustainable design—including modular construction, 3D-printed PLA components, energy optimization, and a detailed sustainability checklist. The robot successfully completed autonomous navigation, obstacle avoidance, manipulation, and drop-off tasks, demonstrating high object recognition accuracy and smooth end-to-end operation.",
+        videoUrl: "",
+        markdownLink: "",
+        githubLink: "https://github.com/Haoran-01/team3-project",
+        isPersonalProject: false,
+        contribution:"In this project, I am mainly responsible for the software development of the robot, including the construction of the overall architecture and the design of software modules. At the same time, I led the team to formulate the project plan and undertook the core development task of the object recognition module. Through this project, I not only improved my ability of teamwork and task allocation, but also mastered the data annotation process and learned in-depth about the object recognition method based on machine learning."
+    },
+
+    // "Path-Fingding": {
+    //     image: FindpathPicture,
+    //     title: "1",
+    //     role: "Developer",
+    //     description: "1",
+    //     details: "1",
+    //     videoUrl: "",
+    //     markdownLink: "",
+    //     githubLink: "",
+    //     isPersonalProject: true
+    // },
+
+
     // "1": {
     //     image: "https://images.unsplash.com/photo-1520769945061-0a448c463865?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
     //     title: "",
