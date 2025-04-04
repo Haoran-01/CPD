@@ -59,7 +59,8 @@ export default {
             <h2 class="text-dark mb-0">Project</h2>
             <p class="lead">
               Here are all the projects I've worked on. <br>
-              V signifies that a demo video is available for the project
+              V signifies that a demo video is available for the project <br>
+              Click on the card to view project details
             </p>
           </div>
         </div>

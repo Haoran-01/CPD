@@ -29,6 +29,8 @@ import P2PPicture from "@/assets/img/pictures/p2p.png"
 import AndoridPicture from "@/assets/img/pictures/android.png"
 import FindpathPicture from "@/assets/img/pictures/PathFinding.png"
 import RoboticsProjectPicture from "@/assets/img/pictures/RoboticsProject.png"
+import RoboticsSystemCW1Picture from "@/assets/img/pictures/RS-CW1.png"
+import RoboticsSystemCW2Picture from "@/assets/img/pictures/RS-CW2.png"
 
 
 // 项目数据以字典形式存储
@@ -193,17 +195,29 @@ export default {
         contribution:"In this project, I am mainly responsible for the software development of the robot, including the construction of the overall architecture and the design of software modules. At the same time, I led the team to formulate the project plan and undertook the core development task of the object recognition module. Through this project, I not only improved my ability of teamwork and task allocation, but also mastered the data annotation process and learned in-depth about the object recognition method based on machine learning."
     },
 
-    // "Path-Fingding": {
-    //     image: FindpathPicture,
-    //     title: "1",
-    //     role: "Developer",
-    //     description: "1",
-    //     details: "1",
-    //     videoUrl: "",
-    //     markdownLink: "",
-    //     githubLink: "",
-    //     isPersonalProject: true
-    // },
+    "RS-For-SDG": {
+        image: RoboticsSystemCW1Picture,
+        title: "Robotic Systems for Sustainable Development",
+        role: "Content Developer & Presenter",
+        description: "Created a professional teaching video introducing how robotic systems can contribute to achieving UN Sustainable Development Goals (SDGs).",
+        details: "This project involved researching and producing a 5-minute asynchronous educational video aimed at graduate engineers. The content introduces the UN Sustainable Development Goals (SDGs), explains the roles of service and industrial robots based on IFR classifications, and explores how robotic technologies can address sustainability challenges. The project includes an in-depth case study of how robotics could support a selected SDG, discussing technical solutions, potential impacts, and ethical considerations. All media assets used were properly licensed, and subtitles were included in the final video. Through this task, I developed both technical understanding and skills in science communication, video editing, and instructional design.",
+        videoUrl: "https://video.manchester.ac.uk/embedded/ffffffff-ff03-312b-0000-01929a017600",
+        markdownLink: "",
+        githubLink: "",
+        isPersonalProject: true
+    },
+
+    "RS-Research": {
+        image: RoboticsSystemCW2Picture,
+        title: "Robotic Research Video Abstract",
+        role: "Research Communicator & Video Creator",
+        description: "In this project clearly demonstrate the performance of the sensors in complex environments.",
+        details: "For this project, I conducted a research dissemination task around the perception capabilities of robotic systems, producing a three-minute summary of an academic video that was used to clearly demonstrate the performance of sensors in complex environments. The video covers the robot's navigation and data perception capabilities under different lighting and obstacle conditions, with experiments demonstrating obstacle detection, path planning, and navigation control using sensors such as LIDAR and cameras. In order to visually convey the results of the experiments, I have collected and visualized data on the robot's travel paths in different environments, combined with graphs and animations to demonstrate key performance metrics such as path accuracy and obstacle avoidance response time. The video was designed to communicate technical points to researchers in a concise and effective manner, and the final product combines video editing, technical presentation, and research dissemination skills, demonstrating my ability to translate technical research into visualization content. This work has not only sharpened my practical skills in robotics experimental design and data analysis, but also enhanced my overall skills in research visualization and communication.",
+        videoUrl: "https://video.manchester.ac.uk/embedded/00000000-6ba0-1fd3-0000-019374c09b40",
+        markdownLink: "",
+        githubLink: "",
+        isPersonalProject: true
+     },
 
 
     // "1": {

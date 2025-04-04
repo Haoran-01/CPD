@@ -29,6 +29,8 @@ import P2PPicture from "@/assets/img/pictures/p2p.png"
 import AndoridPicture from "@/assets/img/pictures/android.png"
 import FindpathPicture from "@/assets/img/pictures/PathFinding.png"
 import RoboticsProjectPicture from "@/assets/img/pictures/RoboticsProject.png"
+import RoboticsSystemCW1Picture from "@/assets/img/pictures/RS-CW1.png"
+import RoboticsSystemCW2Picture from "@/assets/img/pictures/RS-CW2.png"
 
 const imagesPrefix = "src/assets/img/pictures"
 export default [
@@ -108,14 +110,14 @@ export default [
       },
       {
         image: CGPicture,
-        title: "Graphics project",
+        title: "Graphics project [V]",
         subtitle: "A simple animation project developed in Java, utilizing basic geometric shapes composed of triangles. The animation features interactive elements controlled by keyboard input, allowing users to manipulate objects within the animation in real-time.",
         route: "graphics-project",
         pro: false
       },
       {
         image: AndoridPicture,
-        title: "Andorid application SimpleNote",
+        title: "Andorid application SimpleNote [V]",
         subtitle: "SimpleNote is an Android note-taking app built with Java in Android Studio. It features login/registration, note creation with customizable priorities, photo attachments, and a calendar to view notes by date. The app also includes a to-do list",
         route: "Andorid-application-SimpleNote",
         pro: false
@@ -160,6 +162,20 @@ export default [
         title: "A* Path Planning",
         subtitle: "Implemented the A* algorithm using Python to allow a robot to plan paths while avoiding obstacles in a grid-based environment.",
         route: "Path-Fingding",
+        pro: false
+      },
+      {
+        image: RoboticsSystemCW1Picture,
+        title: "Robotic Systems for Sustainable Development [V]",
+        subtitle: "Created a professional teaching video introducing how robotic systems can contribute to achieving UN Sustainable Development Goals (SDGs).",
+        route: "RS-For-SDG",
+        pro: false
+      },
+      {
+        image: RoboticsSystemCW2Picture,
+        title: "Robotic Research Video Abstract",
+        subtitle: "In this project clearly demonstrate the performance of the sensors in complex environments.",
+        route: "RS-Research",
         pro: false
       },
       // {
